@@ -4,9 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    
+    
 }
 
 input, button {
@@ -38,4 +39,14 @@ li {
     border-radius: 5px;
     width: 100%;
     max-width: 300px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
